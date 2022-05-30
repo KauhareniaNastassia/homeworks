@@ -1,3 +1,61 @@
 .message {
+}
 
+.container {
+    display: flex;
+    background-color: chartreuse;
+
+
+}
+
+.avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin: 40px 20px 10px 20px;
+}
+
+
+
+.name {
+    color: mediumpurple;
+    display: flex;
+    align-items: end;
+    padding: 5px 10px 5px 20px;
+}
+
+.message {
+    position: relative;
+    align-items: end;
+    padding: 5px 10px 5px 20px;
+    color: darkseagreen;
+}
+
+.time {
+    font-size: 20px;
+    color: seagreen;
+    text-align: end;
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+.rightBlock {
+    height: 80px;
+    min-width: 300px;
+    max-width: border-box;
+    background-color: darkgreen;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 20px;
+    font-family: Arial
+}
+
+.rightBlock:before {
+    content: "";
+    position:absolute;
+    bottom: 0;
+    left:-40px;
+    height:20px;
+    width: 40px;
+    border-bottom-right-radius: 50%;
+    box-shadow: 20px 0 0 0 darkgreen;
 }
