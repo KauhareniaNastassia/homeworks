@@ -3,8 +3,9 @@
 
 .container {
     display: flex;
+    align-items: flex-end;
     background-color: chartreuse;
-
+    padding-bottom: 10px;
 
 }
 
@@ -43,7 +44,7 @@
     min-width: 300px;
     max-width: border-box;
     background-color: darkgreen;
-    border-radius: 10px;
+    border-radius: 5px 5px 5px 0;
     position: relative;
     margin-top: 20px;
     font-family: Arial
