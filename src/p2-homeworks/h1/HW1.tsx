@@ -9,7 +9,6 @@ const messageData = {
 }
 
 function HW1() {
-    // @ts-ignore
     return (
         <div>
             <hr/>
