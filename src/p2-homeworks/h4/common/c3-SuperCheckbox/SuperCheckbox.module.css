@@ -1,4 +1,19 @@
+.label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
 .checkbox {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.checkbox:checked{
+    appearance: none;
 
 }
 
