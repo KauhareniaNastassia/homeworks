@@ -11,15 +11,11 @@
     margin: 10px;
     cursor: pointer;
     background-color: #FFE4E1;
-
+    border-color: #FF9BAA;
 }
 
 .checkbox:checked{
     appearance: auto;
     background-color: #FFE4E1;
-
 }
 
-.spanClassName {
-
-}

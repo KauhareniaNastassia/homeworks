@@ -20,6 +20,7 @@
     margin: 10px;
     background-color: #FFE4E1;
     color: #063971 ;
+    border: none;
 }
 
 .input:focus {
@@ -32,7 +33,8 @@
     width: 60px;
     background: #FF9BAA;
     color: #0067A5;
-    outline: none;
+    border: none;
+
 }
 
 .button:focus {
@@ -40,7 +42,7 @@
 }
 
 .button:disabled {
-    background-color: #FFE4E1;
+    background-color: #FFC0CB;
 }
 
 .count {

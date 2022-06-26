@@ -2,7 +2,7 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    width: 240px;
+    width: 280px;
     justify-content: center;
     padding-left: 20px;
 
@@ -12,14 +12,17 @@
     width: 60px;
     background: #FF9BAA;
     color: #0067A5;
-    outline: #FF9BAA;
     margin-top: 10px;
+    border: none;
+    outline: none;
+    margin-left: 4px;
 }
 
 .affair_btn {
     background: #FFC0CB;
     color: #0067A5;
     outline: #FF9BAA;
+    border: none;
 
 }
 

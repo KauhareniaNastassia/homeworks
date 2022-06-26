@@ -5,6 +5,8 @@
 .btn {
     background: #FFC0CB;
     color: #003399;
+    border: none;
+    margin-bottom: 5px;
 }
 
 .red {

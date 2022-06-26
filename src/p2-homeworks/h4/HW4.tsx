@@ -48,7 +48,7 @@ import css_btn from "./common/c2-SuperButton/SuperButton.module.css"
                         default
                     </SuperButton>
 
-                    <SuperButton
+                    <SuperButton className={css_btn.btn}
                         red // пропсу с булевым значением не обязательно указывать true
                         onClick={showAlert}
                     >
