@@ -4,42 +4,43 @@
 }
 
 .error {
-    color: red;
+    background: #C10020;
     margin-left: 15px;
     height: 20px;
 }
 
 .errorInput {
     margin: 10px;
-    background: #003300;
-    color: #99ff99;
-    border: 2px solid red;
+    color: #063971;
+    border: 2px solid #C10020;
     outline: none;
 }
 
 .input {
     margin: 10px;
+    background-color: #FFE4E1;
+    color: #063971 ;
 }
 
 .input:focus {
     outline: none;
-    border: #99ff99 solid 2px;
+    border: #063971 solid 2px;
 }
 
 .button {
     margin: 10px;
     width: 60px;
-    background: #003300;
-    color: #99ff99;
+    background: #FF9BAA;
+    color: #0067A5;
     outline: none;
 }
 
 .button:focus {
-    outline: #99ff99;
+    outline: #0067A5;
 }
 
 .button:disabled {
-    color: #005500;
+    background-color: #FFE4E1;
 }
 
 .count {

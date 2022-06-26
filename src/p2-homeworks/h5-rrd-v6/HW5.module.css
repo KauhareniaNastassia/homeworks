@@ -1,0 +1,59 @@
+.block {
+    display: flex;
+    align-items: center;
+    position: fixed; /* положение */
+    top: 30px; /* отступ сверху */
+    left: 0; /* отступ слева */
+    background: #FDBDBA; /* цвет фона */
+    width: 20px; /* ширина блока */
+    height: 30px; /* высота блока */
+    font: 14px Arial; /* размер и тип шрифта */
+    color: #fff; /* цвет текста */
+    text-align: center; /* выравнивание текста по центру */
+    padding: 5px; /* отступы от границ внутри блока */
+
+    -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    -webkit-border-radius: 0 5px 5px 0; /* закругление границ для всех браузеров*/
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; /* положение */
+    top: 30px; /* отступ сверху */
+    left: -420px; /* отступ слева */
+    background: #FDBDBA; /* цвет фона */
+    color: #FDBDBA; /* цвет текста */
+    width: 300px; /* ширина блока */
+    height: 30px; /* высота блока */
+    padding: 5px; /* отступы от границ внутри блока */
+    /* выравнивание текста */
+
+    -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    -webkit-border-radius: 0 5px 5px 0; /* закругление границ для всех браузеров*/
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.block:hover {
+    left: 220px; /* при наведении выдвигается на скрытые 200px + 20px отступы */
+}
+
+.block:hover .header{
+    left: 0;
+}
+
+nlink {
+    text-decoration-line: none;
+}

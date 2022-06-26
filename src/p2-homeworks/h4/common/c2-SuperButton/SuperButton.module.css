@@ -2,6 +2,12 @@
 
 }
 
+.btn {
+    background: #FFC0CB;
+    color: #003399;
+}
+
 .red {
-    background: red;
+    background: #C10020;
+    color: #003399;
 }

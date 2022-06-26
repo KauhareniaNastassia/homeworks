@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
+import s from "../../p1-main/m1-ui/u1-app/App.module.css"
+import css from "./Affairs.module.css"
 
 // types
 export type AffairPriorityType = 'high' | 'middle' | 'low'
@@ -46,19 +48,24 @@ function HW2() {
     return (
         <div>
             <hr/>
-            homeworks 2
+            <div className={s.homework_title} >
+                Homework 2
+            </div>
 
             {/*should work (должно работать)*/}
-            <Affairs
-                data={filteredAffairs}
-                setFilter={setFilter}
-                deleteAffairCallback={deleteAffairCallback}
-            />
+            <div className={css.block}>
+                <Affairs
+                    data={filteredAffairs}
+                    setFilter={setFilter}
+                    deleteAffairCallback={deleteAffairCallback}
+                />
+            </div>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeAffairs/>*/}
-            <hr/>
+
+            {/*<hr/>
+            для личного творчества, могу проверить
+            <AlternativeAffairs/>
+            <hr/>*/}
         </div>
     )
 }

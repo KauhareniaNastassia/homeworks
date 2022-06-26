@@ -1,3 +1,39 @@
-.someClass {
+.block {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    justify-content: center;
+    padding-left: 20px;
 
+}
+
+.button {
+    width: 60px;
+    background: #FF9BAA;
+    color: #0067A5;
+    outline: #FF9BAA;
+    margin-top: 10px;
+}
+
+.affair_btn {
+    background: #FFC0CB;
+    color: #0067A5;
+    outline: #FF9BAA;
+
+}
+
+.affair {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-content: flex-start;
+    color: #003399;
+}
+
+.affairs {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 30px;
 }

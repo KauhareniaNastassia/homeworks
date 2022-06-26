@@ -1,6 +1,7 @@
 import React from 'react'
 import Affair from './Affair'
 import {AffairType} from './HW2'
+import css from "./Affairs.module.css"
 
 export type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
@@ -9,6 +10,8 @@ export type AffairsPropsType = { // need to fix any
 }
 
 function Affairs(props: AffairsPropsType) {
+
+
     let mappedAffairs = props.data.map((a: AffairType) => (
         <Affair // should work
             key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
@@ -24,13 +27,16 @@ function Affairs(props: AffairsPropsType) {
 
     return (
         <div>
+            <div className={css.affairs}>
+                {mappedAffairs}
+            </div>
 
-            {mappedAffairs}
 
-            <button onClick={setAll}>All</button>
-            <button onClick={setHigh}>High</button>
-            <button onClick={setMiddle}>Middle</button>
-            <button onClick={setLow}>Low</button>
+
+            <button className={css.button} onClick={setAll}>All</button>
+            <button className={css.button} onClick={setHigh}>High</button>
+            <button className={css.button} onClick={setMiddle}>Middle</button>
+            <button className={css.button} onClick={setLow}>Low</button>
         </div>
     )
 }

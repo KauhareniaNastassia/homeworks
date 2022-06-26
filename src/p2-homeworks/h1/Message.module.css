@@ -4,7 +4,6 @@
 .container {
     display: flex;
     align-items: flex-end;
-    background-color: chartreuse;
     padding-bottom: 10px;
 
 }
@@ -19,7 +18,7 @@
 
 
 .name {
-    color: mediumpurple;
+    color: #0067A5;
     display: flex;
     align-items: end;
     padding: 5px 10px 5px 20px;
@@ -29,12 +28,12 @@
     position: relative;
     align-items: end;
     padding: 5px 10px 5px 20px;
-    color: darkseagreen;
+    color: #4682B4;
 }
 
 .time {
     font-size: 20px;
-    color: seagreen;
+    color: #0067A5;
     text-align: end;
     margin-bottom: 40px;
     padding-right: 20px;
@@ -43,7 +42,7 @@
     height: 80px;
     min-width: 300px;
     max-width: border-box;
-    background-color: darkgreen;
+    background-color: #FF9BAA;
     border-radius: 5px 5px 5px 0;
     position: relative;
     margin-top: 20px;
@@ -58,5 +57,5 @@
     height:20px;
     width: 40px;
     border-bottom-right-radius: 50%;
-    box-shadow: 20px 0 0 0 darkgreen;
+    box-shadow: 20px 0 0 0 #FF9BAA;
 }
