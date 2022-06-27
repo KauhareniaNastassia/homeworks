@@ -1,11 +1,17 @@
 import React from 'react'
-
+import css_jun from "./Junior.module.css"
 
 function PreJunior() {
     return (
-        <div>
-            COMING SOON...
-            {/*<HW12/>*/}
+        <div className={css_jun.title}>
+            <div>
+                COOMING SOON...
+            </div>
+            {/*<HW7/>*/}
+            {/*<HW8/>*/}
+            {/*<HW9/>*/}
+            {/*<HW10/>*/}
+            {/*<HW11/>*/}
 
         </div>
     )

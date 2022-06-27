@@ -1,15 +1,16 @@
 import React from 'react'
+import css_plus from "./Junior_plus.module.css"
 
 
 function PreJunior() {
     return (
-        <div>
-            COMING SOON...
-            {/*<HW7/>*/}
-            {/*<HW8/>*/}
-            {/*<HW9/>*/}
-            {/*<HW10/>*/}
-            {/*<HW11/>*/}
+        <div className={css_plus.wrapper}>
+            <div className={css_plus.title}>
+                COOMING SOON...
+            </div>
+
+
+            {/*<HW12/>*/}
 
         </div>
     )
