@@ -8,3 +8,14 @@
     color: #FB607F;
     font-size: 36px;
 }
+
+.wrapper {
+    margin-top: 72px;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

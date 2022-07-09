@@ -1,13 +1,12 @@
 import React from 'react'
 import css_jun from "./Junior.module.css"
+import HW7 from "../../../h7/HW7";
+
 
 function PreJunior() {
     return (
-        <div className={css_jun.title}>
-            <div>
-                COOMING SOON...
-            </div>
-            {/*<HW7/>*/}
+        <div className={css_jun.wrapper}>
+            <HW7/>
             {/*<HW8/>*/}
             {/*<HW9/>*/}
             {/*<HW10/>*/}
