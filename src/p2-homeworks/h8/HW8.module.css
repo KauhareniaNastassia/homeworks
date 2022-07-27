@@ -1,0 +1,52 @@
+.homework_title {
+    padding-left: 40px;
+    font-family: LiSu;
+    font-style: italic;
+    font-weight: bold;
+    color: #FB607F;
+    font-size: 24px;
+}
+
+.wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 240px;
+}
+
+.people {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+
+}
+
+.text {
+    font-family: Arial;
+    font-size: 16px;
+    color: #0067A5;
+
+}
+
+.btn {
+
+    background: #FFC0CB;
+    color: #003399;;
+    outline: #FF9BAA;
+    font-family: LiSu;
+    font-size: 14px;
+    border: none;
+    margin-right: 5px;
+}
+
+.btn_block {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn:active {
+    background-color: #FB607F;
+    transition: color 0s
+}
